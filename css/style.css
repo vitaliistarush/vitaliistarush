@@ -1107,3 +1107,29 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+
+
+/* CUSTOM CSS*/
+.quote {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.quote h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 200;
+}
+
+.case-study img {
+  padding-bottom: 20px;
+}
+
+.project h3 {
+  color: #fff;
+}
+
+.about-img {
+  width: 100%;
+  background-position: center top;
+}
