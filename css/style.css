@@ -1101,15 +1101,46 @@ body.offcanvas {
   #sticky_item.is_stuck {
     margin-top: 10px; }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .sticky-parent {
     clear: both;
     height: inherit !important;
     float: left;
-    padding-top: 30px; } }
+    padding-top: 30px;
+  } 
+    
+  #colorlib-hero {
+    margin-bottom: 0em;
+  }
+
+  .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .colorlib-heading {
+    margin-bottom: 2em;
+  }
+
+  .about-desc {
+    margin-top: 2em;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .colorlib-heading {
+    margin-bottom: 1em;
+  }
+}
 
 
 /* CUSTOM CSS*/
+p.margin-small {
+  margin-bottom: 0.5em;
+}
+
+
 .quote {
   width: 100%;
   text-align: center;
@@ -1132,4 +1163,16 @@ body.offcanvas {
 .about-img {
   width: 100%;
   background-position: center top;
+}
+
+/* Hidden Classes */
+
+.hidden-mobile {
+  display: block;
+}  
+
+@media screen and (max-width: 1024px) {
+  .hidden-mobile {
+    display: none;
+  }  
 }
