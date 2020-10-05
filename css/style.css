@@ -415,6 +415,11 @@ body.offcanvas {
   color: #999999;
   font-weight: 500;
   letter-spacing: 5px; }
+@media screen and (max-width: 768px) {
+  .heading-meta {
+    margin-top: 40px;
+  }
+}
 
 .about-img {
   width: 75%;
@@ -1175,4 +1180,49 @@ p.margin-small {
   .hidden-mobile {
     display: none;
   }  
+}
+
+/*  UPDATES  */
+
+.project .desc {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.desc .con h3 {
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.desc .con p {
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.desc .con span {
+  color: #FFF;
+  opacity: 0.75;
+}
+
+.desc .con a {
+  font-weight: 400 !important;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .project .desc {
+    background: rgba(255, 255, 255, 0.95);
+  }
+
+  .desc .con h3 {
+    color: #212121;
+  }
+
+  .project-desktop-title {
+    display: none;
+  }
+  
 }
