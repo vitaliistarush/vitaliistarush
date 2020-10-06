@@ -1193,6 +1193,10 @@ p.margin-small {
   margin-bottom: 20px;
 }
 
+.colorlib-work h4 {
+  font-weight: 500 !important;
+}
+
 .desc .con p {
   color: #212121;
   margin-bottom: 20px;
@@ -1205,6 +1209,10 @@ p.margin-small {
 
 .desc .con a {
   font-weight: 400 !important;
+}
+
+.more-work a:hover {
+  text-decoration: underline !important;
 }
 
 .project {
